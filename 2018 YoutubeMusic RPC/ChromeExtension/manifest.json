@@ -1,0 +1,24 @@
+{
+  "manifest_version": 1,
+
+  "name": "YoutubeMusic DiscordRPC",
+  "description": "",
+  "version": "1",
+    
+  "background": {
+    "scripts": ["vendor/jquery/jquery-3.2.1.min.js", "js/background.js"],
+    "persistent": true
+  },
+
+  "browser_action": {},
+
+  "permissions": [
+  	"http://localhost/*",
+    "tabs"
+  ],
+
+
+  "icons": {
+  }
+
+}
