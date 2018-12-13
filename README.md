@@ -1,6 +1,9 @@
 # Discord Rich Presence for YouTube Music 
+
 > 디스코드의 **Rich Presence** 로 현재 크롬에서 감상중인 YouTube Music 의 노래 정보를 띄워줍니다.
+
 <img src="https://i.imgur.com/Mguyul9.png" />
+
 ## Requirements
 
 > 아래의 프로그램들이 필요합니다. 
@@ -21,7 +24,7 @@
 ``` 
 > cd youtubemusicrpc
 > npm install
-> npm start
+> node app.js
 ```
 
 
@@ -33,7 +36,7 @@
 
 ## Customizing
 
-``app.js `` 의 ClientId 는 현재 기본값으로 제가 만든 YouTube Music Application으로 지정되어 있습니다, 이를 커스터마이징 하고싶다면 아래 지침을 따라하세요.
+``app.js`` 의 ClientId 는 현재 기본값으로 제가 만든 YouTube Music Application으로 지정되어 있습니다, 이를 커스터마이징 하고싶다면 아래 지침을 따라하세요.
 
 0.  [디스코드 Application 생성](https://discordapp.com/developers/applications/me).
 1.  **Create an application** 을 누르세요..
@@ -49,7 +52,8 @@
 ## I Hate Console
 
 <img src="https://i.imgur.com/dUGNYi3.png" />
-콘솔창에서 ``app.js`` 를 실행하기 귀찮으시면, 제가 Electron으로 만든 ``RPC Client``를 사용하세요. 실행시, 오직 Tray Icon 만 나타나게 됩니다!
+
+콘솔창에서 `node app.js` 를 실행하기 귀찮으시면, 제가 Electron으로 만든 ``RPC Client``를 사용하세요. 실행시, 오직 Tray Icon 만 나타나게 됩니다!
 
 [다운로드](https://drive.google.com/file/d/1cGJ_IzInofESbjzCvUGKzn6qGyoHNmqe/view?usp=sharing)
 
